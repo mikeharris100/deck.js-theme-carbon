@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: bolder;
+  font-style: normal;
+  src: url("../font/Open_Sans/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: UbuntuMono;
+    src: url("../font/UbuntuMono-R.ttf");
+}
+
+#title {
+    h2{
+        position:absolute;
+        top:auto;
+        bottom:0;
+        left:0;
+        text-align:left;
+        display:inline-block;
+        font-size:6em;
+    }
+
+    h2:nth-of-type(even){
+	    text-align:right;
+	}
+
+}
+
+.deck-container {
+	color:#ccc;
+	font-family: "Open Sans", Collegiate, "HelveticaNeue-Light", Helvetica, Arial;
+	font-weight: normal;
+	font-size:62.5%;
+    text-shadow:-1px -1px -1px rgba(0,0,0,.5);
+	width:100%;
+	padding:0;
+   
+    background-image: linear-gradient(left top, rgba(255,255,255,.2) 0%, rgba(255,255,255, 0) 100%), url(real_cf.png);
+    background-image: -o-linear-gradient(left top, rgba(255,255,255,.2) 0%, rgba(255,255,255,0) 100%), url(real_cf.png);
+    background-image: -moz-linear-gradient(left top, rgba(255,255,255,.2) 0%, rgba(255,255,255,0) 100%), url(real_cf.png);
+    background-image: -webkit-linear-gradient(left top, rgba(255,255,255,.2) 0%, rgba(255,255,255,0) 100%), url(real_cf.png);
+    background-image: -ms-linear-gradient(left top, rgba(255,255,255,.2) 0%, rgba(255,255,255,0) 100%), url(real_cf.png);
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        color-stop(0, rgba(255,255,255,.2)),
+        color-stop(1, rgba(255,255,255,0))
+    ), url(../img/real_cf.png);
+    
+	h1, h2 {
+	    padding: 0.5em;
+	    margin:0;
+	    border:0;
+	    text-align:center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translate3d(0, -50%, 0);
+        -moz-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        -o-transform: translate(0, -50%);
+        transform: translate3d(0, -50%, 0);
+	
+	    font-weight:bolder;
+		font-size:8em;
+
+		span {
+		    color:#aaa;
+		    font-weight:normal;
+		    display:block;
+		}
+	}
+
+	h3{
+	    font-size:5em;
+	    padding: 0.5em;
+	    border-bottom:2px solid #999;
+    }
+
+	p, ul{
+	    font-size:3em;
+    }
+
+    code {
+		color:#def;
+		background:#000;
+		font-family: UbuntuMono;
+	}
+
+	::-moz-selection{ background:#08455f; color:#fff; }
+	::selection { background:#08455f; color:#fff; }
+	
+}
