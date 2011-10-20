@@ -69,6 +69,47 @@
     color: #def;
     background: #000;
     font-family: UbuntuMono; }
+  .deck-container blockquote {
+    font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: 1.5em;
+    padding: 1em 2em .5em 2em;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -ms-linear-gradient(bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 0.1)), color-stop(1, rgba(255, 255, 255, 0))); }
+    .deck-container blockquote p {
+      margin: 0; }
+    .deck-container blockquote cite {
+      font-size: .5em;
+      font-style: normal;
+      font-weight: bold;
+      color: #888; }
+    .deck-container blockquote:before {
+      content: "“";
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 5em;
+      line-height: 1;
+      color: #fff;
+      z-index: 1; }
+    .deck-container blockquote:after {
+      content: "”";
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 5em;
+      line-height: 1;
+      color: #fff;
+      z-index: 1; }
   .deck-container ::-moz-selection {
     background: #08455f;
     color: #fff; }
