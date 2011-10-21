@@ -21,7 +21,7 @@
   left: 0;
   text-align: left;
   display: inline-block;
-  font-size: 6em; }
+  font-size: 4em; }
 #title h2:nth-of-type(even) {
   text-align: right; }
 
@@ -58,13 +58,16 @@
     .deck-container h1 span, .deck-container h2 span {
       color: #aaa;
       font-weight: normal;
-      display: block; }
+      display: block;
+      font-size: 0.5em; }
   .deck-container h3 {
     font-size: 5em;
     padding: 0.5em;
     border-bottom: 2px solid #999; }
   .deck-container p, .deck-container ul {
     font-size: 3em; }
+  .deck-container p {
+    margin: 1em; }
   .deck-container code {
     color: #def;
     background: #000;
@@ -73,6 +76,7 @@
     font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
     font-size: 1.5em;
     padding: 1em 2em .5em 2em;
+    margin: 1em;
     color: #fff;
     position: relative;
     text-align: center;
