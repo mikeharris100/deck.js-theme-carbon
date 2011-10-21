@@ -66,7 +66,7 @@
     border-bottom: 2px solid #999; }
   .deck-container p, .deck-container ul, .deck-container div, .deck-container pre {
     font-size: 3em; }
-  .deck-container p {
+  .deck-container p, .deck-container div, .deck-container pre {
     margin: 1em; }
   .deck-container code, .deck-container .code {
     color: #def;
