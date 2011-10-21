@@ -94,7 +94,7 @@
 	    border-bottom:2px solid #999;
     }
 
-	p, ul{
+	p, ul, div, pre{
 	    font-size:3em;
     }
 
@@ -102,11 +102,16 @@
 	    margin:1em;
     }
 
-    code {
+    code, .code {
 		color:#def;
 		background:#000;
 		font-family: UbuntuMono;
 	}
+
+	pre {
+	    border:none;
+        @include border-radius(5px);
+    }
 
     blockquote {
 		font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;

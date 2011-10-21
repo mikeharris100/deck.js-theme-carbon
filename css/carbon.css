@@ -64,14 +64,19 @@
     font-size: 5em;
     padding: 0.5em;
     border-bottom: 2px solid #999; }
-  .deck-container p, .deck-container ul {
+  .deck-container p, .deck-container ul, .deck-container div, .deck-container pre {
     font-size: 3em; }
   .deck-container p {
     margin: 1em; }
-  .deck-container code {
+  .deck-container code, .deck-container .code {
     color: #def;
     background: #000;
     font-family: UbuntuMono; }
+  .deck-container pre {
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; }
   .deck-container blockquote {
     font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
     font-size: 1.5em;
