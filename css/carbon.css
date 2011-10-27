@@ -21,7 +21,7 @@
   left: 0;
   text-align: left;
   display: inline-block;
-  font-size: 4em; }
+  font-size: 1.25em; }
 #title h2:nth-of-type(even) {
   text-align: right; }
 
@@ -29,7 +29,7 @@
   color: #ccc;
   font-family: "Open Sans", Collegiate, "HelveticaNeue-Light", Helvetica, Arial;
   font-weight: normal;
-  font-size: 62.5%;
+  font-size: 187.5%;
   text-shadow: -1px -1px -1px rgba(0, 0, 0, 0.5);
   width: 100%;
   padding: 0;
@@ -54,18 +54,16 @@
     -o-transform: translate(0, -50%);
     transform: translate3d(0, -50%, 0);
     font-weight: bolder;
-    font-size: 8em; }
+    font-size: 2.66em; }
     .deck-container h1 span, .deck-container h2 span {
       color: #aaa;
       font-weight: normal;
       display: block;
       font-size: 0.5em; }
   .deck-container h3 {
-    font-size: 5em;
+    font-size: 1.66em;
     padding: 0.5em;
     border-bottom: 2px solid #999; }
-  .deck-container p, .deck-container ul, .deck-container div, .deck-container pre {
-    font-size: 3em; }
   .deck-container p, .deck-container div, .deck-container pre {
     margin: 1em; }
   .deck-container code, .deck-container .code {
@@ -104,18 +102,18 @@
     .deck-container blockquote:before {
       content: "“";
       position: absolute;
-      top: 0;
-      left: 0;
-      font-size: 5em;
+      top: 0.1em;
+      left: 0.1em;
+      font-size: 1.66em;
       line-height: 1;
       color: #fff;
       z-index: 1; }
     .deck-container blockquote:after {
       content: "”";
       position: absolute;
-      top: 0;
-      right: 0;
-      font-size: 5em;
+      top: 0.1em;
+      right: 0.1em;
+      font-size: 1.66em;
       line-height: 1;
       color: #fff;
       z-index: 1; }
